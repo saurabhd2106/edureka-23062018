@@ -1,0 +1,8 @@
+
+	Run as Java -- Shift + Alt + X, J
+	Type public static void main -- main + ctrl + spacebar + enter
+	System.out.println() -- syso + ctrl + spacebar
+	Formatting -- Shift + ctrl + F
+	
+	Save -- ctrl + s
+	Save All -- shift + ctrl + s
