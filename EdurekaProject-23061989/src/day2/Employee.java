@@ -19,7 +19,7 @@ public class Employee {
 	
 	int calculateSalary3(int sal, int bon){
 		int totalSalary = sal + bon;
-		
+		System.out.println(sal);
 		return totalSalary;
 	}
 	
