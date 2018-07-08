@@ -10,7 +10,7 @@ public class MultipleBrowserTesting {
 
 	WebDriver driver;
 
-	public void invokeBrowser(String browserType) {
+	public void invokeBrowser(String browserType) throws Exception {
 
 		if (browserType.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
@@ -30,7 +30,7 @@ public class MultipleBrowserTesting {
 			// /n -- new line, /t-- tab
 			driver = new EdgeDriver();
 		} else {
-			System.err.println("Invalid Browser");
+			throw new Exception("Invalid Browser Type.. "+browserType);
 		}
 
 		Dimension dim = new Dimension(400, 600);
