@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Class Execution suite">
+	<test name="class execution test">
+		<groups>
+			<run>
+				<!-- <include name="Sanity"></include> -->
+				<include name="Regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="day8.TestNGTesting"></class>
+			<class name="day8.Guru99Project"></class>
+		</classes>
+	</test>
+</suite>

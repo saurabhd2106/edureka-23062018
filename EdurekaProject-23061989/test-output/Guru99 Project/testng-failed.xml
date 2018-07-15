@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Guru99 Project]">
+  <test name="Mozilla Firefox(failed)">
+    <parameter name="password" value="YzesujU"/>
+    <parameter name="userid" value="mngr140442"/>
+    <parameter name="browserType" value="firefox"/>
+    <classes>
+      <class name="day8.Guru99Project">
+        <methods>
+          <include name="verifyTheTitleOfLoginPage"/>
+          <include name="invokeBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- day8.Guru99Project -->
+    </classes>
+  </test> <!-- Mozilla Firefox(failed) -->
+  <test name="Google Chrome(failed)">
+    <parameter name="password" value="YzesujU"/>
+    <parameter name="userid" value="mngr140442"/>
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="day8.Guru99Project">
+        <methods>
+          <include name="verifyTheTitleOfLoginPage"/>
+          <include name="invokeBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- day8.Guru99Project -->
+    </classes>
+  </test> <!-- Google Chrome(failed) -->
+  <test name="MS Edge(failed)">
+    <parameter name="password" value="YzesujU"/>
+    <parameter name="userid" value="mngr140442"/>
+    <parameter name="browserType" value="edge"/>
+    <classes>
+      <class name="day8.Guru99Project">
+        <methods>
+          <include name="verifyTheTitleOfLoginPage"/>
+          <include name="invokeBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- day8.Guru99Project -->
+    </classes>
+  </test> <!-- MS Edge(failed) -->
+</suite> <!-- Failed suite [Guru99 Project] -->

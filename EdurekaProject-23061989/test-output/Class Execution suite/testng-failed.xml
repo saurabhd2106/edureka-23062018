@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Class Execution suite]">
+  <test name="class execution test(failed)">
+    <groups>
+      <run>
+        <exclude name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="day8.Guru99Project">
+        <methods>
+          <include name="verifyTheTitleOfLoginPage"/>
+          <include name="invokeBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- day8.Guru99Project -->
+    </classes>
+  </test> <!-- class execution test(failed) -->
+</suite> <!-- Failed suite [Class Execution suite] -->

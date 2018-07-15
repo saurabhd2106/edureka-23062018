@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Guru99 Project" parallel="tests">
+	<test name="Mozilla Firefox">
+		<parameter name="userid" value="mngr140442"></parameter>
+		<parameter name="password" value="YzesujU"></parameter>
+		<parameter name="browserType" value="firefox"></parameter>
+		<classes>
+			<class name="day8.Guru99Project" />
+		</classes>
+	</test> <!-- Tests -->
+
+	<test name="Google Chrome">
+		<parameter name="userid" value="mngr140442"></parameter>
+		<parameter name="password" value="YzesujU"></parameter>
+		<parameter name="browserType" value="chrome"></parameter>
+		<classes>
+			<class name="day8.Guru99Project" />
+		</classes>
+	</test>
+
+	<test name="MS Edge">
+		<parameter name="userid" value="mngr140442"></parameter>
+		<parameter name="password" value="YzesujU"></parameter>
+		<parameter name="browserType" value="edge"></parameter>
+		<classes>
+			<class name="day8.Guru99Project" />
+		</classes>
+	</test>
+</suite> <!-- Guru99 Project -->

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="118" started-at="2018-07-15T17:43:33Z" finished-at="2018-07-15T17:43:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="118" started-at="2018-07-15T17:43:33Z" finished-at="2018-07-15T17:43:34Z">
+      <class name="day8.DataProviderExample">
+        <test-method status="PASS" signature="printTestData(java.lang.String, java.lang.String, int)[pri:0, instance:day8.DataProviderExample@7c0e2abd]" name="printTestData" duration-ms="25" started-at="2018-07-15T23:13:33Z" data-provider="getData" finished-at="2018-07-15T23:13:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saurabh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pro@124]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[583465]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestData -->
+        <test-method status="PASS" signature="printTestData(java.lang.String, java.lang.String, int)[pri:0, instance:day8.DataProviderExample@7c0e2abd]" name="printTestData" duration-ms="4" started-at="2018-07-15T23:13:33Z" data-provider="getData" finished-at="2018-07-15T23:13:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gaurav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[XYZ@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5465]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestData -->
+        <test-method status="PASS" signature="printTestData(java.lang.String, java.lang.String, int)[pri:0, instance:day8.DataProviderExample@7c0e2abd]" name="printTestData" duration-ms="5" started-at="2018-07-15T23:13:33Z" data-provider="getData" finished-at="2018-07-15T23:13:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saurabh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uxv@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[577465]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestData -->
+        <test-method status="PASS" signature="printTestData(java.lang.String, java.lang.String, int)[pri:0, instance:day8.DataProviderExample@7c0e2abd]" name="printTestData" duration-ms="3" started-at="2018-07-15T23:13:33Z" data-provider="getData" finished-at="2018-07-15T23:13:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saurabh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sdhf@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[547765]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestData -->
+      </class> <!-- day8.DataProviderExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
